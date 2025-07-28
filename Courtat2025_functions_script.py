@@ -15,7 +15,7 @@ import os
 
 def get_chart_dir():
     cwd = os.getcwd()
-    default_chart_dir = os.path.join(cwd, 'Courtat2023_charts')
+    default_chart_dir = os.path.join(cwd, 'Courtat2025_charts')
 
     answer = input("Figures will be saved in {}. Press enter to use this path, or provide another path".format(
         default_chart_dir))
